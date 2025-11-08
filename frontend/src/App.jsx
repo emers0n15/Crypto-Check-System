@@ -629,9 +629,9 @@ function App() {
           </section>
         )}
       </main>
-
+        
       <footer className="footer">
-        <p>{texts.footerCopy}</p>
+        <p><a href="https://github.com/emers0n15" target="_blank" rel="noopener noreferrer" style={{ color: "var(--muted-dark)", textDecoration: "none" }}>{texts.footerCopy}</a></p>
       </footer>
 
       {selectedCoin && (
